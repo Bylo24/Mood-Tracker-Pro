@@ -1,0 +1,14 @@
+// Only adding the new screen imports and navigation routes
+// This is a partial update to the existing App.tsx file
+
+// Add these imports with the other screen imports
+import HelpSupportScreen from './screens/HelpSupportScreen';
+import AboutScreen from './screens/AboutScreen';
+import TermsOfServiceScreen from './screens/TermsOfServiceScreen';
+import PrivacyPolicyScreen from './screens/PrivacyPolicyScreen';
+
+// Add these screen definitions in the Stack.Navigator component
+<Stack.Screen name="HelpSupport" component={HelpSupportScreen} options={{ headerShown: false }} />
+<Stack.Screen name="About" component={AboutScreen} options={{ headerShown: false }} />
+<Stack.Screen name="TermsOfService" component={TermsOfServiceScreen} options={{ headerShown: false }} />
+<Stack.Screen name="PrivacyPolicy" component={PrivacyPolicyScreen} options={{ headerShown: false }} />

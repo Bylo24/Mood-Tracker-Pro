@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "owner": "itsbylo",
+    "name": "user-app",
+    "slug": "user-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+      "icon": "./assets/icon.png",
+      "color": "#ffffff",
+      "androidMode": "default",
+      "androidCollapsedTitle": "MoodBuddy",
+      "iosDisplayInForeground": true
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.appacella.userapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2162afba-2737-4dc7-84da-bfdce9c0c9ab"
+      }
+    }
+  }
+}
